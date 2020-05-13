@@ -81,6 +81,7 @@ Câu 6:
 - Thông tin chi tiết từng node(cost(chi phí khởi động..tổng chi phí, rows(số lượng row dự kiến trả về), width(kích thước trung bình của 1 row trả về): như kết quả trong ngoặc ở trên, chú thích ngay cạnh tên node
 - Thứ tự chạy: Seq Scan on actor -> Hash -> Seq Scan on film -> Hash -> Seq Scan on film_actor -> Hash Join 
                -> Hash Join -> HashAggregate
+
 Câu 7: 
 "Hash Join  (cost=36.28..71.88 rows=23 width=196)"
 "  Hash Cond: (film_category.category_id = category.category_id)"
